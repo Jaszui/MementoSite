@@ -1,0 +1,390 @@
+*{
+    /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+body {
+    font-family: 'Playfair Display', serif;
+    background-image: url("../images/lightpaperfibers_@2X.png");
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    background-color: white;
+    width: 80%;
+    min-width: 954px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0px 0px 20px 5px #888888;
+}
+.container-fluid {
+    padding-right: 25%;
+}
+.title1 {
+    float: left;
+    height: 250px;
+    margin: 5rem 1rem;
+    width: 300px;
+    /*border: 1px solid black;*/
+    text-align: center;
+
+
+}
+.galery1 {
+    float: left;
+    height: 250px;
+    margin: 5rem 1rem;
+    width: 300px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    /*background: url("images/gal1.jpg") center center no-repeat;*/
+}
+
+.galery1 img{
+    height: 250px;
+    width: 300px;
+}
+
+/*.galery1  :hover{*/
+    /*width: 900px;*/
+    /*height: 500px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*position: absolute;*/
+/*}*/
+.icon{
+
+    margin-right: auto;
+    margin-left: auto;
+    color: #888888;
+    font-size: 50px;
+}
+.firstSquare {
+    height: 500px;
+    min-width: 954px;
+    background: url('../images/first1.png')no-repeat center center;
+    background-size: cover;
+}
+.fourthSquare{
+    height: 500px;
+    min-width: 954px;
+    background: url('../images/altinova.jpg')no-repeat center center;
+    background-size: cover;
+}
+.fourthSquare h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+
+}
+.fourthSquare p{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+
+}
+.fourthSquare video{
+    width: 450px;
+    height: 260px;
+    margin-right: 5%;
+    margin-top: 1%;
+    border: 1px solid white;
+}
+.fifthSquare {
+    height: 500px;
+    min-width: 954px;
+    background-color: white;
+    background-size: cover;
+
+}
+.sixthSquare{
+    height: 500px;
+    min-width: 954px;
+    background: url('https://truth.bahamut.com.tw/s01/201704/2d88f3e5d735fe6bfcc5e02d863d504c.JPG')no-repeat center center;
+    background-size: cover;
+}
+.seventhSquare{
+    height: 500px;
+    min-width: 954px;
+    background-color: white;
+    background-size: cover;
+}
+.eighthSquare{
+    height: 500px;
+    min-width: 954px;
+    background: url('../images/e47d62b739720170426115441531.jpg')no-repeat center center;
+    background-size: cover;
+}
+.eighthSquare h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 20%;
+    letter-spacing: 5px;
+}
+.secondSquare{
+    height: 310px;
+    min-width: 1000px;
+    text-align: center;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thirdSquare{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thirdSquare .col-4{
+    display: block;
+    float: left;
+    width: 33.333%;
+    padding-right: 3%;
+
+}
+/*.thirdSquare .col-4 images{*/
+/*display: block;*/
+/*float: left;*/
+/*width: 138%;*/
+/*margin-top: -48%;*/
+/*}*/
+.thirdSquare .col-4 img {
+    display: block;
+    float: left;
+    width: 112%;
+    margin-top: -5rem;
+}
+.secondSquare .col-6 img{
+    width: 75%;
+    height: 131%;
+    margin-top: -16rem;
+}
+.navbar-header img{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.navbar-nav a{
+    color: white;
+    font-size: 20px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.navbar-right a {
+    margin-right: 2rem;
+}
+.mementoLogo{
+    /*border: 1px solid white;*/
+    width: 250px;
+    height: 350px;
+    margin-right: 2rem;
+    padding: inherit;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: -5%;
+}
+.mementoLogo img{
+    width: 250px;
+    height: 250px;
+    margin-right: 2rem;
+}
+.mementoLogo h2{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-left: 2rem;
+}
+.col-12 h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.col-12 p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+.square{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 5px #888888;
+    text-align: left;
+    display: block;
+    float: left;
+    padding: 30px;
+    margin-right: 5rem;
+    margin-left: 50%;
+    margin-top: 18%;
+}
+
+.square h2{
+    font-family: 'Playfair Display', serif;
+    color: #888888;
+}
+.square p{
+    padding: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: gray;
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+.mainTextStyle {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-justify: auto;
+    margin-top: 3rem;
+}
+.paraghaph{
+    color: #999999;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.square2{
+    width: 450px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+}
+.centerGrid{
+
+    display: table;
+}
+.icon1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #888888;
+    font-size: 50px;
+}
+.icon{
+
+    margin-right: auto;
+    margin-left: auto;
+    color: #888888;
+    font-size: 50px;
+
+}
+
+.myDivSquare3
+{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.title2 {
+    float: left;
+    margin: 3rem;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.guildQuest{
+    float: left;
+    margin: 3rem;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.guildQuest3{
+    float: right;
+    margin: 4rem;
+    /*border: 1px solid black;*/
+    text-align: center;
+    width: 400px;
+    height: 200px;
+}
+
+.titleRepair1{
+    border: 1px solid #999999;
+    float: left;
+    /*margin-top: 5%;*/
+    /*margin-left: 5%;*/
+    width: 400px;
+    height: 400px;
+    -moz-box-shadow: 0 0 80px #999;
+    -webkit-box-shadow: 0 0 80px #999;
+    box-shadow: 0 0 80px #999;
+    margin-bottom: 30px;
+    margin-top: 180px;
+    padding: 30px;
+    /*height: 1000px;*/
+}
+.titleRepair2{
+    position: absolute;
+    margin-top: -21%;
+    /*margin-top: -269%;*/
+    font-family: 'Playfair Display', serif;
+}
+.titleRepair3{
+    float: right;
+    margin-left: 5rem;
+}
+.textInsideBox{
+    color: #999999;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.title4 {
+    margin-top: 24rem;
+    margin-left: 4rem;
+    float: left;
+    width: 200px;
+    height: 100px;
+    /*position: absolute;*/
+    /*border: 1px solid #999999;*/
+
+    /*height: 1000px;*/
+}
+.nodeWar
+{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: white;
+}
+.textNodeWar{
+    color: #999999;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #888888;
+}
+.videoclass{
+    width: 400px;
+    height: 250px;
+    border:  1px solid white;
+    float: right;
+    margin-right: 3rem;
+    margin-top: -282px;
+}
